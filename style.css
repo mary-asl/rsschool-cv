@@ -31,10 +31,16 @@ h2 {
     color: #008b8b;
 }
 
-li {
+li .phone {
 	padding: 10px;
 	color: #008b8b;
-	list-style-image: url(images/phone.gif);
+	list-style-image: url(images/phone.png);
+}
+
+li .mail {
+	padding: 10px;
+	color: #008b8b;
+	list-style-image: url(images/mail.png);
 }
 
 p {

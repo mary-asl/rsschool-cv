@@ -3,7 +3,6 @@ body {
 	padding: 0 30px;
 	font-size: 16px;
 	font-family: "Arial", sans-serif;
-    position: relative;
     height: 100%;
     margin: 30;
 }
@@ -20,6 +19,13 @@ h1 {
     text-align: center;
 }
 
+.contacts {
+	text-align:left;
+	padding-left: 40px; 
+    margin-left:40%; 
+}
+
+
 h2 {
 	text-align:center;
     margin: 20px;
@@ -32,9 +38,8 @@ h2 {
 }
 
 li {
-	padding: 10px;
 	color: #008b8b;
-	list-style-image: url(images/phone.gif);
+	list-style-type: none;
 }
 
 p {

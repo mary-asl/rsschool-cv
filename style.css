@@ -34,7 +34,7 @@ h2 {
 li {
 	padding: 10px;
 	color: #008b8b;
-	list-style-type:none;
+	list-style-image: url(images/phone.gif);
 }
 
 p {

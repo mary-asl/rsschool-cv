@@ -1,91 +1,62 @@
 
-body {
-	padding: 0 30px;
-	font-size: 16px;
-	font-family: "Arial", sans-serif;
-    height: 100%;
-    margin: 30;
-}
-
-h1 {
-	text-align:center;
-	color:DarkCyan;
-    margin: 0px;
-    padding-top: 24px;
-    padding-bottom: 8px;
-    font-weight: bold;
-    font-size: 36px;
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-}
-
-.contacts {
-	text-align:left;
-	padding-left: 40px; 
-    margin-left:40%; 
-}
-
-
-h2 {
-	text-align:center;
-    margin: 20px;
-    padding-top: 8px;
-    padding-bottom: 4px;
-    font-weight: bold;
-    font-size: 32px;
-    font-family: 'Arial', sans-serif;
-    color: #008b8b;
-}
-
-li {
-	color: #008b8b;
-	list-style-type: none;
-}
-
-p {
-	font-family: 'Comic Sans MS', sans-serif;
-	text-align:center;
-	font-size: 16px;
-}
-
-.block {
-background: linear-gradient(to top, #FFFFFF, #B0E0E6);
-display:inline-block;
-width:100%;
-height:100%;
-margin: 10px;
-border-radius: 10 px;
-box-shadow: 1px 1px 3px #999999;
-text-align:center;
-}
-
-.block-1 {
-background: white;
-display:inline-block;
-width:100%;
-height:100%;
-margin: 10px; 
-padding:10px;
-border-radius: 10 px;
-box-shadow: 1px 1px 3px #999999;
-text-align:center;
-}
-
-.photo {
-	transform: rotate(30deg);
-	text-align:center;
-	border-radius: 50%;
-	box-shadow: 1px 1px 5px #999999;
-}
-
-.skills dd {
-	margin:0;
-	margin-bottom:10px;
-	background-color: #e8e8e8;
-}
-
-.skills-lvl {
-	text-align:center;
-	color:#ffffff;
-	background-color: #008b8b;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+	<body>
+      <header>
+	    <h1>Kazakova Mariya Aleksandrovna</h1>
+	  </header>
+	  <div class="block">
+	    <br>
+	    <img class="photo" src="C:\Users\Маша\Desktop\test\images\myphoto.jpg" width="200" height="200">
+	<h2>Student of JavaScript development courses</h2>
+	<ul class="contacts">
+	<b>Contact Information</b>
+	<li style="list-style-image: url(images/phone.png);">mobile phone: +7 (778) 710-11-23</li>
+	<li style="list-style-image: url(images/mail.png);"> e-mail: mariya_asl@mail.ru</li>
+	</ul>
+	</div>
+	<section>
+	  <h2>About me</h2>
+	  
+      <p class="block-1">
+		KSTU University student. My specialty is Computer Science. I am a responsible and creative person who wants to learn and develop. 
+	  I'm not conflicted person, I take any job seriously. I have a good memory, read a lot and study foreign languages. I am very motivated to become a front-end developer. 
+	  I think programming is difficult, but interesting and promising.
+	  </p>
+	</section>
+	<section>
+	<h2>My skills:</h2>
+	  <dl class="skills">
+    	<dt>HTML<dt>
+		<dd><div class="skills-lvl" style="width: 60%">60%</div></dd>
+		<dt>CSS<dt>
+		<dd><div class="skills-lvl" style="width: 50%" >50%</div></dd>
+		<dt>JavaScript<dt>
+		<dd><div class="skills-lvl" style="width: 30%">30%</div></dd>
+		<dt>Java<dt>
+		<dd><div class="skills-lvl" style="width: 30%">30%</div></dd>
+	  </dl>
+	</section>
+	<div class="block">
+	<h2>Education</h2>
+	<ul>
+	  <li>since 2017 
+	    <a href="http://www.kstu.kz/"> KSTU </a> student
+	  </li>
+      <li>since 2019 
+	    <a href="https://htmlacademy.ru/">HTML Academy website</a>
+	  </li>
+      <li>since 2019 
+	    <a href="https://scholarships.kz/">"Scholarships"</a> educational company student</li>
+      <li>2017 - 2019 <a href="http://zh-hant.kstu.kz/?p=153">Confucius Institute</a> student</li>
+	</ul>
+	</div>
+    <div class="block-1"><b>My English level</b> - B1</div>
+    </body>
+</html>
